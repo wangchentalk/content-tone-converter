@@ -35,9 +35,7 @@
 安装这个Skill 技能 https://github.com/wangchentalk/content-tone-converter
 ```
 
-给到你的 Agent 软件（如 Workbuddy、豆包、TraeWork、千问办公等），直接等待 agent 软件自动安装即可。支持该方式的 Agent 软件包括 WorkBuddy、豆包、TraeWork、千问办公等。
-
-支持该方式的 Agent 软件包括 WorkBuddy、豆包、TraeWork、千问办公等。把链接交给软件后，等待其自动完成安装。
+给到你的 Agent 软件（如 Workbuddy、豆包、TraeWork、千问办公等），直接等待 agent 软件自动安装即可。
 
 ### 使用
 
