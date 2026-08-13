@@ -1,8 +1,10 @@
 # Content Tone Converter
 
+[![version](https://img.shields.io/badge/version-v1.0.0-blue)](https://github.com/wangchentalk/content-tone-converter/releases) [![license](https://img.shields.io/badge/license-Attribution-green)](./README.en.md)
+
 > Rephrase the same information for different audiences by adjusting tone and style. Built for non-technical users: just say how you want it to sound.
 
-[English](./README.en.md) · [中文](./README.md)
+[中文](./README.md)
 
 ## What it is
 
@@ -12,7 +14,7 @@ It is built for users with no technical background. You do not need to know prom
 
 Its most distinctive value is that the before/after difference is visible at a glance. Every conversion makes the expression barrier feel lower immediately, which is why it is easy to adopt and easy to recommend to others.
 
-## Features
+## Core capabilities
 
 The skill ships with four conversion modes that can be used alone or combined.
 
@@ -25,9 +27,9 @@ The skill ships with four conversion modes that can be used alone or combined.
 
 Modes can be combined. For example "make this tech doc casual" equals Mode 1 plus Mode 3.
 
-## Quick start
+## Get started in 3 steps
 
-### Install
+### Step 1 Install
 
 Option 1: One-link install (recommended)
 Send the line below directly to your Agent software. No manual steps are required (use the copy button on the top right of the code block to copy the link in one click):
@@ -41,7 +43,7 @@ And hand it to your Agent software (such as WorkBuddy, Doubao, traeWork, Qwen Of
 Option 2: Install from a zip package
 Download `content-tone-converter.zip` from the Releases page of this repository. In your Agent software, open the "Skill Market" or the add-skill entry, then import the local zip file directly to finish installation. This works with any Agent software that supports local zip import.
 
-### Use
+### Step 2 Describe
 
 Describe the tone you want in plain language. Trigger examples:
 
@@ -51,7 +53,9 @@ Describe the tone you want in plain language. Trigger examples:
 - "Polish this with my writing rules: no em dashes, add sources."
 - "Make it social and sign off with my brand."
 
-The skill detects which mode applies and returns the result.
+### Step 3 Get the result
+
+The skill detects which mode applies and returns the result. You do not pick a mode number and need no knowledge of the prompt logic behind it.
 
 ## The four modes
 
@@ -86,6 +90,15 @@ Rewrites corporate or academic text into a relaxed, conversational short piece f
 
 One-click house style: remove em dashes, drop "not A but B" flip phrasing, add a dialectical perspective, cite sources, and curb emoji and empty slogans.
 
+## Brand
+
+This skill belongs to the personal IP "AI·Wang Chen Shuo" (AI·王陈说).
+
+- Brand: AI·Wang Chen Shuo
+- Site: https://wangchenai.com
+
+Principle: the brand and site are attached only when the user asks for it or when the output is clearly meant for public release. They are never forced into every conversion.
+
 ## File structure
 
 ```
@@ -98,15 +111,14 @@ content-tone-converter/
 └── README.en.md            # English
 ```
 
-## Brand
-
-This skill belongs to the personal IP "AI·Wang Chen Shuo" (AI·王陈说).
-
-- Brand: AI·Wang Chen Shuo
-- Site: https://wangchenai.com
-
-Principle: the brand and site are attached only when the user asks for it or when the output is clearly meant for public release. They are never forced into every conversion.
-
 ## License
 
 Free to use and modify. When redistributing or building on it, please keep the original attribution (AI·Wang Chen Shuo).
+
+## Contributing
+
+Suggestions and improvements are welcome.
+
+- Open an Issue to report a problem or share an idea.
+- Open a Pull Request to change SKILL.md or the sample files.
+- Keep README.md as the default (Chinese) and update README.en.md in sync.
