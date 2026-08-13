@@ -29,40 +29,11 @@
 
 ### 安装
 
-本技能在 WorkBuddy 中有两种原生安装方式，也可以在其他 AI 工具中通过导入提示词复用同一套转换逻辑。
+把下面这句话直接发给你的 Agent 软件即可，无需任何手动操作：
 
-方式一（市场安装）
-在 WorkBuddy 的技能市场中搜索 `content-tone-converter`，点击安装即可。
+> 安装这个Skill 技能 https://github.com/wangchentalk/content-tone-converter，给到你的 Agent 软件（如 Workbuddy、豆包、TraeWork、千问办公等），直接等待 agent 软件自动安装即可。
 
-方式二（手动放置）
-将本仓库的 `content-tone-converter` 文件夹复制到用户级技能目录，路径如下：
-
-```
-~/.workbuddy/skills/content-tone-converter/
-```
-
-放置完成后重启 WorkBuddy，技能即生效。
-
-方式三（zip 压缩包）
-在发行版页面下载 `content-tone-converter.zip`，解压后将得到的 `content-tone-converter/` 文件夹放入 `~/.workbuddy/skills/`，再重启 WorkBuddy。这种方式是方式二的离线等价形式，适合无网络或市场不可用的环境。
-
-方式四（NPX）
-若发布方提供了基于 npm 的分发包，可在终端运行下面的命令一键拉取并安装，包名以发布方公布为准：
-
-```
-npx <发布方包名> add content-tone-converter
-```
-
-前提：需要 Node.js 环境，且发布方已发布对应的 npm 包。
-
-方式五（豆包）
-在豆包的自定义智能体中新建一个智能体，把本仓库 `SKILL.md` 的全部内容粘贴为系统提示词，即可让豆包复用本技能的四模式转换逻辑。前提：豆包需支持自定义系统提示词或知识库导入。
-
-方式六（traeWork）
-在 traeWork 的插件或技能中心搜索 `content-tone-converter` 并安装，或在自定义技能中导入本仓库的 `SKILL.md`。前提：traeWork 需已接入 WorkBuddy 技能生态。
-
-方式七（千问办公）
-在千问办公的智能体编辑器里新建智能体，将 `SKILL.md` 内容粘贴为指令，即可使用四模式转换。前提：千问办公需支持自定义指令导入。
+支持该方式的 Agent 软件包括 WorkBuddy、豆包、TraeWork、千问办公等。把链接交给软件后，等待其自动完成安装。
 
 ### 使用
 

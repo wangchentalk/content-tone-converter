@@ -29,40 +29,11 @@ Modes can be combined. For example "make this tech doc casual" equals Mode 1 plu
 
 ### Install
 
-The skill has two native install paths inside WorkBuddy, and its prompt logic can also be reused in other AI tools by importing the prompt.
+Send the line below directly to your Agent software. No manual steps are required:
 
-Option A: Marketplace
-Search for `content-tone-converter` in the WorkBuddy Skill marketplace and click install.
+> Install this Skill https://github.com/wangchentalk/content-tone-converter and hand it to your Agent software (such as WorkBuddy, Doubao, traeWork, Qwen Office), then simply wait for the agent software to install it automatically.
 
-Option B: Manual
-Copy the `content-tone-converter` folder into your user-level skills directory:
-
-```
-~/.workbuddy/skills/content-tone-converter/
-```
-
-Restart WorkBuddy afterwards and the skill becomes active.
-
-Option C: Zip package
-Download `content-tone-converter.zip` from the releases, unzip it, and place the resulting `content-tone-converter/` folder into `~/.workbuddy/skills/`, then restart WorkBuddy. This is the offline equivalent of Option B, useful when the marketplace is unavailable.
-
-Option D: NPX
-If the publisher ships an npm package, run the publisher's command to pull and install it. The package name is whatever the publisher publishes:
-
-```
-npx <publisher-package> add content-tone-converter
-```
-
-Requires Node.js and a published npm package from the publisher.
-
-Option E: Doubao
-In Doubao, create a custom agent and paste the entire `SKILL.md` as the system prompt. Doubao then reuses the skill's four conversion modes. Requires Doubao to support custom system prompts or knowledge import.
-
-Option F: traeWork
-In traeWork, search `content-tone-converter` in the plugin or skill center and install, or import `SKILL.md` into a custom skill. Requires traeWork to be connected to the WorkBuddy skill ecosystem.
-
-Option G: Qwen Office (千问办公)
-In Qwen Office's agent editor, create an agent and paste `SKILL.md` content as instructions to use the four modes. Requires Qwen Office to support custom instruction import.
+Agent software that supports this includes WorkBuddy, Doubao, traeWork, Qwen Office, and similar tools. After you hand over the link, wait for it to finish installing on its own.
 
 ### Use
 
