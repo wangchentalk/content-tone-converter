@@ -29,6 +29,7 @@ Modes can be combined. For example "make this tech doc casual" equals Mode 1 plu
 
 ### Install
 
+Option 1: One-link install (recommended)
 Send the line below directly to your Agent software. No manual steps are required (use the copy button on the top right of the code block to copy the link in one click):
 
 ```
@@ -36,6 +37,9 @@ Install this Skill https://github.com/wangchentalk/content-tone-converter
 ```
 
 And hand it to your Agent software (such as WorkBuddy, Doubao, traeWork, Qwen Office), then simply wait for the agent software to install it automatically.
+
+Option 2: Install from a zip package
+Download `content-tone-converter.zip` from the Releases page of this repository. In your Agent software, open the "Skill Market" or the add-skill entry, then import the local zip file directly to finish installation. This works with any Agent software that supports local zip import.
 
 ### Use
 
