@@ -29,11 +29,13 @@ Modes can be combined. For example "make this tech doc casual" equals Mode 1 plu
 
 ### Install
 
-Send the line below directly to your Agent software. No manual steps are required (use the copy button on the top right of the code block to copy it in one click):
+Send the line below directly to your Agent software. No manual steps are required (use the copy button on the top right of the code block to copy the link in one click):
 
 ```
-Install this Skill https://github.com/wangchentalk/content-tone-converter and hand it to your Agent software (such as WorkBuddy, Doubao, traeWork, Qwen Office), then simply wait for the agent software to install it automatically.
+Install this Skill https://github.com/wangchentalk/content-tone-converter
 ```
+
+And hand it to your Agent software (such as WorkBuddy, Doubao, traeWork, Qwen Office), then simply wait for the agent software to install it automatically. Agent software that supports this includes WorkBuddy, Doubao, traeWork, Qwen Office, and similar tools. After you hand over the link, wait for it to finish installing on its own.
 
 Agent software that supports this includes WorkBuddy, Doubao, traeWork, Qwen Office, and similar tools. After you hand over the link, wait for it to finish installing on its own.
 
