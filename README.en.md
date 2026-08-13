@@ -6,7 +6,7 @@
 
 ## What it is
 
-Content Tone Converter is a Skill for the WorkBuddy AI assistant. Its core job is to rephrase the same information for a target reader by switching tone and style, without changing the underlying facts or conclusions.
+Content Tone Converter is a Skill that runs in an AI Agent. Its core job is to rephrase the same information for a target reader by switching tone and style, without changing the underlying facts or conclusions.
 
 It is built for users with no technical background. You do not need to know prompt engineering or write any code. Just say something like "make this easier to understand" or "turn it into a formal report", and you get a ready-to-use result.
 
